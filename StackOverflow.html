@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script type='text/javascript' src='https://api.stackexchange.com/js/2.0/all.js'></script>
+    <script src="DataRetriever.js"></script>
+    <link rel="stylesheet" href="Retriever.css">
+
+    <!-- Prevents caching -->
+    <script src="test.js?random=<?php echo uniqid(); ?>"></script>
+
+    <title>
+        Stack Overflow Grabber
+    </title>
+</head>
+<body>
+    <p> Please enter the tag of the questions you would like to retrieve. 
+        An empty tag, will simply retrieve the most recent and and most voted questions in the past week.
+    </p>
+
+    <center>
+
+        
+    <center>
+        <div>
+            <p id="executionTime"></p>
+        </div>
+    </center>
+
+    <form>
+        <input type="text" id="tag" />
+        <input type="button" value="Submit Tag" onclick="return SubmitTag()"/>
+    </form>
+    </center>
+
+    <center>
+        <div id="results">
+
+        </div>
+    </center>
+</body>
+</html>
