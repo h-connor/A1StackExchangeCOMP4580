@@ -22,4 +22,4 @@ LocalHost:
 
 Second method:
 1. Head over to hryhoru3/a1_stack_exchange_comp4580 on dockerHub OR pull with the command docker pull hryhoru3/a1_stack_exchange_comp4580
-2. Open the file StackOverflow.html on a browser. Please assure everything is from within the same directory.
+2. Open the file index.html on a browser. Please assure everything is from within the same directory.
