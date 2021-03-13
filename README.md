@@ -10,4 +10,6 @@ Casting the result as a JSON object, the requests are then merged, and parsed to
 
 ### Instructions
 
-1. -- How to run the application
+1. Head over to hryhoru3/a1_stack_exchange_comp4580 on dockerHub
+2. Or pull with the command docker pull hryhoru3/a1_stack_exchange_comp4580
+3. Open the file StackOverflow.html on a browser. Please assure everything is from within the same directory.
