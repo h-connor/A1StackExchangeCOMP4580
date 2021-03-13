@@ -16,7 +16,7 @@ Docker Repo: https://hub.docker.com/r/hryhoru3/a1_stack_exchange_comp4580
 
 LocalHost:
 
-1. Run the command docker run -dp 80:80 hryhoru3/a1_stack_exchange_comp4580. Please assure nothing else is running on this port.
+1. Run the command 'docker run -dp 80:80 hryhoru3/a1_stack_exchange_comp4580'  .Please assure nothing else is running on this port.
 2. Then type 'localhost:80/' on the url of your web browser.
 3. Now you may enter the tag in the search field for the questions you would like to receive.
 
