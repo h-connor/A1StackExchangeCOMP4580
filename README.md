@@ -16,10 +16,12 @@ Docker Repo: https://hub.docker.com/r/hryhoru3/a1_stack_exchange_comp4580
 
 LocalHost:
 
-1. Run the command 'docker run -dp 80:80 hryhoru3/a1_stack_exchange_comp4580'  .Please assure nothing else is running on this port.
-2. Then type 'http://127.0.0.1/' on the url of your web browser.
+1. Run the command docker run -dp 80:80 hryhoru3/a1_stack_exchange_comp4580. Please assure nothing else is running on this port.
+2. Then type 'localhost:80/' on the url of your web browser.
 3. Now you may enter the tag in the search field for the questions you would like to receive.
+4. Questions will appear as you see on screen along with the response time.
+5. Click on a questions collapsible to open the comments, answers, and comments to the answers for that particular question.
 
 Second method:
 1. Head over to hryhoru3/a1_stack_exchange_comp4580 on dockerHub OR pull with the command docker pull hryhoru3/a1_stack_exchange_comp4580
-2. Open the file index.html on a browser. Please assure everything is from within the same directory.
+2. Open the file StackOverflow.html on a browser. Please assure everything is from within the same directory.
